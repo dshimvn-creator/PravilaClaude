@@ -1,0 +1,43 @@
+{
+  "model": "opus[1m]",
+  "skillOverrides": {
+    "workctl": "off"
+  },
+  "enabledPlugins": {
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true,
+    "context7@claude-plugins-official": true,
+    "ponytail@ponytail": true,
+    "gsap-skills@gsap-skills": true,
+    "modern-web-guidance@googlechrome": true,
+    "claude-seo@agricidaniel-claude-seo": true
+  },
+  "extraKnownMarketplaces": {
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "gsap-skills": {
+      "source": {
+        "source": "github",
+        "repo": "greensock/gsap-skills"
+      }
+    },
+    "googlechrome": {
+      "source": {
+        "source": "github",
+        "repo": "GoogleChrome/modern-web-guidance"
+      }
+    },
+    "agricidaniel-claude-seo": {
+      "source": {
+        "source": "github",
+        "repo": "AgriciDaniel/claude-seo"
+      }
+    }
+  },
+  "autoUpdatesChannel": "latest",
+  "theme": "light",
+  "agentPushNotifEnabled": false
+}
